@@ -1,0 +1,5 @@
+mountpoints:
+  /:
+    url: "https://author-p220207-e2271469.adobeaemcloud.com/bin/franklin.delivery/rishavkumartcs/aem-eds/main"
+    type: "markup"
+    suffix: ".html"
