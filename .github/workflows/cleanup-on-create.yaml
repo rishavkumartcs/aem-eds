@@ -17,9 +17,9 @@ jobs:
     if: ${{ github.event_name == 'workflow_dispatch' || ( github.ref == 'refs/heads/main' && !(contains(github.event, 'head_commit') || github.event.head_commit.message == 'Initial commit' )) }}
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
       - name: Use Node.js 21
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
           node-version: 21
       - name: Remove Helper Files
