@@ -24,4 +24,3 @@ jobs:
 >>>>>>> ed426a2 (updated node version)
     - run: npm ci
     - run: npm run lint
-2
