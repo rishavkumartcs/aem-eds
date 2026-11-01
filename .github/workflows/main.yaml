@@ -6,6 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
 <<<<<<< HEAD
+<<<<<<< HEAD
     - uses: actions/checkout@v6
     - name: Use Node.js 20
       uses: actions/setup-node@v6
@@ -13,8 +14,11 @@ jobs:
         node-version: 24
 =======
     - uses: actions/checkout@v4
+=======
+    - uses: actions/checkout@v5
+>>>>>>> 5ddef32 (corrected node version error)
     - name: Use Node.js 21
-      uses: actions/setup-node@v4
+      uses: actions/setup-node@v5
       with:
 <<<<<<< HEAD
         node-version: 20
