@@ -1,5 +1,9 @@
 mountpoints:
   /:
+<<<<<<< HEAD
     url: "https://author-p130360-e1272151.adobeaemcloud.com/bin/franklin.delivery/adobe-rnd/aem-boilerplate-xwalk/main"
+=======
+    url: "https://author-p220207-e2271469.adobeaemcloud.com/bin/franklin.delivery/rishavkumartcs/aem-eds/main"
+>>>>>>> 42cf283 (added fstab file)
     type: "markup"
     suffix: ".html"
